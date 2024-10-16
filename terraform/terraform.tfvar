@@ -1,0 +1,11 @@
+project_id       = "your-gcp-project-id"
+region           = "us-central1"
+vpc_name         = "gke-vpc"
+subnet_name      = "gke-subnet"
+subnet_cidr      = "10.0.0.0/16"
+cluster_name     = "gke-cluster"
+machine_type     = "n1-standard-1"
+min_master_version = "1.20"
+node_locations   = ["us-central1-a", "us-central1-b"]
+min_node_count   = 1
+max_node_count   = 3
